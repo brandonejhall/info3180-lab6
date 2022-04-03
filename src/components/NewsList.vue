@@ -17,7 +17,7 @@ search term here" />
             <div class="card" style="width: 18rem;">
             <img  class="card-img-top" :src="article.urlToImage"  alt="Card image cap"/>
             <div class="card-body">
-            {{ article.title }}
+            <h5>{{ article.title }}</h5>
             {{ article.description}}
             </div>
             </div>
